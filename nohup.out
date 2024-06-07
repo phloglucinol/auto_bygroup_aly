@@ -1,0 +1,1424 @@
+
+auto_bygroup_aly /nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB
+single_aly.sh: line 11: cd: /nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/openmm_run/complex: No such file or directory
+single_aly.sh: line 11: cd: /nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/openmm_run/ligand: No such file or directory
+All free_ene.csv files exist!
+Traceback (most recent call last):
+  File "/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/get_all_fe.py", line 214, in <module>
+    main()
+  File "/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/get_all_fe.py", line 186, in main
+    sorted_dirs = list_and_sort_directories(root_path)
+  File "/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/get_all_fe.py", line 137, in list_and_sort_directories
+    dirs = [d for d in os.listdir(path) if os.path.isdir(os.path.join(path, d))]
+FileNotFoundError: [Errno 2] No such file or directory: '/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/openmm_run/complex'
+Traceback (most recent call last):
+  File "/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/count_simu_time.py", line 220, in <module>
+    main()
+  File "/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/count_simu_time.py", line 148, in main
+    sorted_dirs = list_and_sort_directories(root_path)
+  File "/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/count_simu_time.py", line 25, in list_and_sort_directories
+    dirs = [d for d in os.listdir(path) if os.path.isdir(os.path.join(path, d)) and re.match(r'(restraints|electrostatics|sterics)(?:_group(\d+))?', d)]
+FileNotFoundError: [Errno 2] No such file or directory: '/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/openmm_run/complex'
+Traceback (most recent call last):
+  File "/nfs/zli_gpu2/bin/developed_softwares/AlchemConvTools/bygroup_combine_time_serials_data.py", line 259, in <module>
+    ts = TimeSeriesDataFrameCombiner(df_name_pattern, base_path, plotting_plan)
+  File "/nfs/zli_gpu2/bin/developed_softwares/AlchemConvTools/bygroup_combine_time_serials_data.py", line 142, in __init__
+    combine_obj.combine_way()
+  File "/nfs/zli_gpu2/bin/developed_softwares/AlchemConvTools/bygroup_combine_time_serials_data.py", line 52, in combine_way
+    one_df = list(self.df_dir.values())[0]
+IndexError: list index out of range
+[]
+[]
+[]
+Traceback (most recent call last):
+  File "/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/gen_report.py", line 170, in <module>
+    used_height = process_image(image_path, x_position, y_position, image_width, image_height)
+  File "/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/gen_report.py", line 88, in process_image
+    with Image.open(image_path) as img:
+  File "/home/zli/.local/lib/python3.9/site-packages/PIL/Image.py", line 3092, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/auto_bygroup_aly_whole_mol_fe_time_serial.png'
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by2
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by2
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+one_loop.sh: line 13: cd: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_: No such file or directory
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+auto_aly_mainloop.sh: line 14: cd: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_: No such file or directory
+                                                                                                                                  /nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+one_loop.sh: line 13: cd: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_: No such file or directory
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+one_loop.sh: line 13: cd: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_: No such file or directory
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor3
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor3
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by4
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+auto_aly_mainloop.sh: line 14: cd: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by4/: No such file or directory
+auto_aly_mainloop.sh: line 14: cd: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by4/: No such file or directory
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_ligby/1pf8_by4
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6nzp-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-1
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-2
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/TYK2_bygroup/4th_batch/6vns-3
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_ligby/1pf8_by4
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3lxp_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3lxp_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3lxp_lig
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3lxp_nor
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3lxp_lig
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by5
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_4by
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_8by
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_8by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_1by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_8by_new
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_4by_new
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_to_0
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_16by_4to1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_16by_4to1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_16by_4to1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor_decouple
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by_decouple
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3lxp_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3lxp_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_8by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3lxp_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_8by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3lxp_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_8by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor_decouple
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3lxp_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_8by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor_decouple
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_2by_decouple
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3lxp_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_8by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor_decouple
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_2by_decouple
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_lamb_0.99
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_mol_0.99
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_15by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_8by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_12by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_6by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_3by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_13by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_7by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_9by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_15by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_8by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_12by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_6by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_3by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_13by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_7by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_9by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_15by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_8by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_12by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_6by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_3by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_13by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_7by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_9by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_15by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_8by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_12by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_6by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_3by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_13by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_7by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_9by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_15by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_8by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_12by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_6by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_3by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_13by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_7by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_9by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_4by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_2by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_by
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_by
+will do aly
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_9by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_5by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_3by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+sys_to_aly.txt: line 1: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_15by: Is a directory
+sys_to_aly.txt: line 2: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_8by: Is a directory
+sys_to_aly.txt: line 3: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_4by: Is a directory
+sys_to_aly.txt: line 4: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_2by: Is a directory
+sys_to_aly.txt: line 5: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_12by: Is a directory
+sys_to_aly.txt: line 6: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_6by: Is a directory
+sys_to_aly.txt: line 7: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_3by: Is a directory
+sys_to_aly.txt: line 8: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_13by: Is a directory
+sys_to_aly.txt: line 9: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_7by: Is a directory
+sys_to_aly.txt: line 10: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_4by: Is a directory
+sys_to_aly.txt: line 11: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_2by: Is a directory
+sys_to_aly.txt: line 12: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_9by: Is a directory
+sys_to_aly.txt: line 13: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_4by: Is a directory
+sys_to_aly.txt: line 14: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_2by: Is a directory
+sys_to_aly.txt: line 15: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_by: Is a directory
+sys_to_aly.txt: line 16: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_by: Is a directory
+sys_to_aly.txt: line 17: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_by: Is a directory
+sys_to_aly.txt: line 18: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_nor: Is a directory
+sys_to_aly.txt: line 19: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_nor: Is a directory
+sys_to_aly.txt: line 20: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_nor: Is a directory
+sys_to_aly.txt: line 21: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_by: Is a directory
+sys_to_aly.txt: line 22: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_9by: Is a directory
+sys_to_aly.txt: line 23: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_5by: Is a directory
+sys_to_aly.txt: line 24: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_3by: Is a directory
+sys_to_aly.txt: line 25: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by6: Is a directory
+sys_to_aly.txt: line 1: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_15by: Is a directory
+sys_to_aly.txt: line 2: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_8by: Is a directory
+sys_to_aly.txt: line 3: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_4by: Is a directory
+sys_to_aly.txt: line 4: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_2by: Is a directory
+sys_to_aly.txt: line 5: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_12by: Is a directory
+sys_to_aly.txt: line 6: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_6by: Is a directory
+sys_to_aly.txt: line 7: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_3by: Is a directory
+sys_to_aly.txt: line 8: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_13by: Is a directory
+sys_to_aly.txt: line 9: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_7by: Is a directory
+sys_to_aly.txt: line 10: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_4by: Is a directory
+sys_to_aly.txt: line 11: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_2by: Is a directory
+sys_to_aly.txt: line 12: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_9by: Is a directory
+sys_to_aly.txt: line 13: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_4by: Is a directory
+sys_to_aly.txt: line 14: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_2by: Is a directory
+sys_to_aly.txt: line 15: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_by: Is a directory
+sys_to_aly.txt: line 16: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_by: Is a directory
+sys_to_aly.txt: line 17: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_by: Is a directory
+sys_to_aly.txt: line 18: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_nor: Is a directory
+sys_to_aly.txt: line 19: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_nor: Is a directory
+sys_to_aly.txt: line 20: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_nor: Is a directory
+sys_to_aly.txt: line 21: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_by: Is a directory
+sys_to_aly.txt: line 22: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_9by: Is a directory
+sys_to_aly.txt: line 23: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_5by: Is a directory
+sys_to_aly.txt: line 24: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_3by: Is a directory
+sys_to_aly.txt: line 25: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by6: Is a directory
+sys_to_aly.txt: line 1: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_15by: Is a directory
+sys_to_aly.txt: line 2: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_8by: Is a directory
+sys_to_aly.txt: line 3: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_4by: Is a directory
+sys_to_aly.txt: line 4: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_2by: Is a directory
+sys_to_aly.txt: line 5: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_12by: Is a directory
+sys_to_aly.txt: line 6: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_6by: Is a directory
+sys_to_aly.txt: line 7: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_3by: Is a directory
+sys_to_aly.txt: line 8: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_13by: Is a directory
+sys_to_aly.txt: line 9: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_7by: Is a directory
+sys_to_aly.txt: line 10: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_4by: Is a directory
+sys_to_aly.txt: line 11: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_2by: Is a directory
+sys_to_aly.txt: line 12: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_9by: Is a directory
+sys_to_aly.txt: line 13: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_4by: Is a directory
+sys_to_aly.txt: line 14: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_2by: Is a directory
+sys_to_aly.txt: line 15: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_by: Is a directory
+sys_to_aly.txt: line 16: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_by: Is a directory
+sys_to_aly.txt: line 17: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_by: Is a directory
+sys_to_aly.txt: line 18: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_nor: Is a directory
+sys_to_aly.txt: line 19: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_nor: Is a directory
+sys_to_aly.txt: line 20: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_nor: Is a directory
+sys_to_aly.txt: line 21: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_by: Is a directory
+sys_to_aly.txt: line 22: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_9by: Is a directory
+sys_to_aly.txt: line 23: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_5by: Is a directory
+sys_to_aly.txt: line 24: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_3by: Is a directory
+sys_to_aly.txt: line 25: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by6: Is a directory
+sys_to_aly.txt: line 26: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_lamb_0.99: Is a directory
+sys_to_aly.txt: line 27: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_2by_decouple: Is a directory
+sys_to_aly.txt: line 28: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3lxp: Is a directory
+sys_to_aly.txt: line 29: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_4by_decouple: Is a directory
+sys_to_aly.txt: line 30: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_8by_decouple: Is a directory
+sys_to_aly.txt: line 31: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by_decouple: Is a directory
+sys_to_aly.txt: line 32: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor_decouple: Is a directory
+sys_to_aly.txt: line 33: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_nor_decouple: Is a directory
+sys_to_aly.txt: line 34: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_by_decouple: Is a directory
+sys_to_aly.txt: line 35: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_by_decouple: Is a directory
+sys_to_aly.txt: line 36: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor_decouple: Is a directory
+sys_to_aly.txt: line 1: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_15by: Is a directory
+sys_to_aly.txt: line 2: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_8by: Is a directory
+sys_to_aly.txt: line 3: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_4by: Is a directory
+sys_to_aly.txt: line 4: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_2by: Is a directory
+sys_to_aly.txt: line 5: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_12by: Is a directory
+sys_to_aly.txt: line 6: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_6by: Is a directory
+sys_to_aly.txt: line 7: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_3by: Is a directory
+sys_to_aly.txt: line 8: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_13by: Is a directory
+sys_to_aly.txt: line 9: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_7by: Is a directory
+sys_to_aly.txt: line 10: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_4by: Is a directory
+sys_to_aly.txt: line 11: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_2by: Is a directory
+sys_to_aly.txt: line 12: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_9by: Is a directory
+sys_to_aly.txt: line 13: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_4by: Is a directory
+sys_to_aly.txt: line 14: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_2by: Is a directory
+sys_to_aly.txt: line 15: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_by: Is a directory
+sys_to_aly.txt: line 16: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_by: Is a directory
+sys_to_aly.txt: line 17: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_by: Is a directory
+sys_to_aly.txt: line 18: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_nor: Is a directory
+sys_to_aly.txt: line 19: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_nor: Is a directory
+sys_to_aly.txt: line 20: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_nor: Is a directory
+sys_to_aly.txt: line 21: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_by: Is a directory
+sys_to_aly.txt: line 22: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_9by: Is a directory
+sys_to_aly.txt: line 23: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_5by: Is a directory
+sys_to_aly.txt: line 24: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_3by: Is a directory
+sys_to_aly.txt: line 25: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by6: Is a directory
+sys_to_aly.txt: line 26: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_lamb_0.99: Is a directory
+sys_to_aly.txt: line 27: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_2by_decouple: Is a directory
+sys_to_aly.txt: line 28: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3lxp: Is a directory
+sys_to_aly.txt: line 29: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_4by_decouple: Is a directory
+sys_to_aly.txt: line 30: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_8by_decouple: Is a directory
+sys_to_aly.txt: line 31: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by_decouple: Is a directory
+sys_to_aly.txt: line 32: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor_decouple: Is a directory
+sys_to_aly.txt: line 33: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_nor_decouple: Is a directory
+sys_to_aly.txt: line 34: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_by_decouple: Is a directory
+sys_to_aly.txt: line 35: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_by_decouple: Is a directory
+sys_to_aly.txt: line 36: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor_decouple: Is a directory
+sys_to_aly.txt: line 37: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_nor: Is a directory
+sys_to_aly.txt: line 38: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_by: Is a directory
+sys_to_aly.txt: line 39: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_11by: Is a directory
+sys_to_aly.txt: line 40: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_3by: Is a directory
+sys_to_aly.txt: line 41: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_6by: Is a directory
+sys_to_aly.txt: line 1: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_15by: Is a directory
+sys_to_aly.txt: line 2: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_8by: Is a directory
+sys_to_aly.txt: line 3: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_4by: Is a directory
+sys_to_aly.txt: line 4: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_2by: Is a directory
+sys_to_aly.txt: line 5: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_12by: Is a directory
+sys_to_aly.txt: line 6: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_6by: Is a directory
+sys_to_aly.txt: line 7: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_3by: Is a directory
+sys_to_aly.txt: line 8: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_13by: Is a directory
+sys_to_aly.txt: line 9: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_7by: Is a directory
+sys_to_aly.txt: line 10: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_4by: Is a directory
+sys_to_aly.txt: line 11: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_2by: Is a directory
+sys_to_aly.txt: line 12: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_9by: Is a directory
+sys_to_aly.txt: line 13: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_4by: Is a directory
+sys_to_aly.txt: line 14: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_2by: Is a directory
+sys_to_aly.txt: line 15: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_by: Is a directory
+sys_to_aly.txt: line 16: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_by: Is a directory
+sys_to_aly.txt: line 17: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_by: Is a directory
+sys_to_aly.txt: line 18: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_nor: Is a directory
+sys_to_aly.txt: line 19: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_nor: Is a directory
+sys_to_aly.txt: line 20: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_nor: Is a directory
+sys_to_aly.txt: line 21: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_by: Is a directory
+sys_to_aly.txt: line 22: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_9by: Is a directory
+sys_to_aly.txt: line 23: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_5by: Is a directory
+sys_to_aly.txt: line 24: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_3by: Is a directory
+sys_to_aly.txt: line 25: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by6: Is a directory
+sys_to_aly.txt: line 26: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_lamb_0.99: Is a directory
+sys_to_aly.txt: line 27: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_2by_decouple: No such file or directory
+sys_to_aly.txt: line 28: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3lxp: Is a directory
+sys_to_aly.txt: line 29: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_4by_decouple: No such file or directory
+sys_to_aly.txt: line 30: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_8by_decouple: No such file or directory
+sys_to_aly.txt: line 31: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by_decouple: No such file or directory
+sys_to_aly.txt: line 32: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor_decouple: No such file or directory
+sys_to_aly.txt: line 33: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_nor_decouple: Is a directory
+sys_to_aly.txt: line 34: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_by_decouple: Is a directory
+sys_to_aly.txt: line 35: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_by_decouple: Is a directory
+sys_to_aly.txt: line 36: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor_decouple: Is a directory
+sys_to_aly.txt: line 37: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_nor: Is a directory
+sys_to_aly.txt: line 38: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_by: Is a directory
+sys_to_aly.txt: line 39: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_11by: Is a directory
+sys_to_aly.txt: line 40: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_3by: Is a directory
+sys_to_aly.txt: line 41: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_6by: Is a directory
+sys_to_aly.txt: line 42: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor1: Is a directory
+sys_to_aly.txt: line 1: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_15by: Is a directory
+sys_to_aly.txt: line 2: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_8by: Is a directory
+sys_to_aly.txt: line 3: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_4by: Is a directory
+sys_to_aly.txt: line 4: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_2by: Is a directory
+sys_to_aly.txt: line 5: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_12by: Is a directory
+sys_to_aly.txt: line 6: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_6by: Is a directory
+sys_to_aly.txt: line 7: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_3by: Is a directory
+sys_to_aly.txt: line 8: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_13by: Is a directory
+sys_to_aly.txt: line 9: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_7by: Is a directory
+sys_to_aly.txt: line 10: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_4by: Is a directory
+sys_to_aly.txt: line 11: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_2by: Is a directory
+sys_to_aly.txt: line 12: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_9by: Is a directory
+sys_to_aly.txt: line 13: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_4by: Is a directory
+sys_to_aly.txt: line 14: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_2by: Is a directory
+sys_to_aly.txt: line 15: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_by: Is a directory
+sys_to_aly.txt: line 16: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_by: Is a directory
+sys_to_aly.txt: line 17: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_by: Is a directory
+sys_to_aly.txt: line 18: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/5wal_nor: Is a directory
+sys_to_aly.txt: line 19: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4mr4_nor: Is a directory
+sys_to_aly.txt: line 20: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_nor: Is a directory
+sys_to_aly.txt: line 21: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_by: Is a directory
+sys_to_aly.txt: line 22: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_9by: Is a directory
+sys_to_aly.txt: line 23: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_5by: Is a directory
+sys_to_aly.txt: line 24: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6fnx_3by: Is a directory
+sys_to_aly.txt: line 25: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by6: Is a directory
+sys_to_aly.txt: line 26: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_lamb_0.99: Is a directory
+sys_to_aly.txt: line 27: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_2by_decouple: No such file or directory
+sys_to_aly.txt: line 28: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3lxp: Is a directory
+sys_to_aly.txt: line 29: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_4by_decouple: No such file or directory
+sys_to_aly.txt: line 30: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_8by_decouple: No such file or directory
+sys_to_aly.txt: line 31: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by_decouple: No such file or directory
+sys_to_aly.txt: line 32: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor_decouple: No such file or directory
+sys_to_aly.txt: line 33: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_nor_decouple: Is a directory
+sys_to_aly.txt: line 34: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_by_decouple: Is a directory
+sys_to_aly.txt: line 35: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_by_decouple: Is a directory
+sys_to_aly.txt: line 36: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor_decouple: Is a directory
+sys_to_aly.txt: line 37: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_nor: Is a directory
+sys_to_aly.txt: line 38: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_by: Is a directory
+sys_to_aly.txt: line 39: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_11by: Is a directory
+sys_to_aly.txt: line 40: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_3by: Is a directory
+sys_to_aly.txt: line 41: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_6by: Is a directory
+sys_to_aly.txt: line 42: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor1: Is a directory
+sys_to_aly.txt: line 43: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by_mol_0.9/: Is a directory
+sys_to_aly.txt: line 1: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor_decouple: Is a directory
+sys_to_aly.txt: line 2: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_nor: Is a directory
+sys_to_aly.txt: line 3: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_by: Is a directory
+sys_to_aly.txt: line 4: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_11by: Is a directory
+sys_to_aly.txt: line 5: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_3by: Is a directory
+sys_to_aly.txt: line 6: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_6by: Is a directory
+sys_to_aly.txt: line 7: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor1: Is a directory
+sys_to_aly.txt: line 8: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by_mol_0.9/: Is a directory
+auto_bygroup_aly /nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB
+single_aly.sh: line 11: cd: /nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/openmm_run/complex: No such file or directory
+single_aly.sh: line 11: cd: /nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/openmm_run/ligand: No such file or directory
+All free_ene.csv files exist!
+Traceback (most recent call last):
+  File "/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/get_all_fe.py", line 214, in <module>
+    main()
+  File "/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/get_all_fe.py", line 186, in main
+    sorted_dirs = list_and_sort_directories(root_path)
+  File "/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/get_all_fe.py", line 137, in list_and_sort_directories
+    dirs = [d for d in os.listdir(path) if os.path.isdir(os.path.join(path, d))]
+FileNotFoundError: [Errno 2] No such file or directory: '/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/openmm_run/complex'
+Traceback (most recent call last):
+  File "/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/count_simu_time.py", line 220, in <module>
+    main()
+  File "/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/count_simu_time.py", line 148, in main
+    sorted_dirs = list_and_sort_directories(root_path)
+  File "/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/count_simu_time.py", line 25, in list_and_sort_directories
+    dirs = [d for d in os.listdir(path) if os.path.isdir(os.path.join(path, d)) and re.match(r'(restraints|electrostatics|sterics)(?:_group(\d+))?', d)]
+FileNotFoundError: [Errno 2] No such file or directory: '/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/openmm_run/complex'
+Traceback (most recent call last):
+  File "/nfs/zli_gpu2/bin/developed_softwares/AlchemConvTools/bygroup_combine_time_serials_data.py", line 275, in <module>
+    ts = TimeSeriesDataFrameCombiner(df_name_pattern, base_path, plotting_plan)
+  File "/nfs/zli_gpu2/bin/developed_softwares/AlchemConvTools/bygroup_combine_time_serials_data.py", line 158, in __init__
+    combine_obj.combine_way()
+  File "/nfs/zli_gpu2/bin/developed_softwares/AlchemConvTools/bygroup_combine_time_serials_data.py", line 68, in combine_way
+    one_df = list(self.df_dir.values())[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly/gen_report.py", line 1, in <module>
+    from reportlab.lib.pagesizes import A4
+ModuleNotFoundError: No module named 'reportlab'
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor_decouple
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by_mol_0.9
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_11by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_3by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_6by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor_decouple
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+one_loop.sh: line 13: cd: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by_mol_0.9/: No such file or directory
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_11by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_3by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_6by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_mol_0.9
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor_decouple
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+one_loop.sh: line 13: cd: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by_mol_0.9/: No such file or directory
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_11by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_3by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_6by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_mol_0.9
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_lamb_0.9
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor_decouple
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+one_loop.sh: line 13: cd: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by_mol_0.9/: No such file or directory
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_11by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_3by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_6by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_mol_0.9
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_lamb_0.9
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_nor_mol
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor_decouple
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+one_loop.sh: line 13: cd: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by_mol_0.9/: No such file or directory
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_11by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_3by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_6by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_mol_0.9
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_lamb_0.9
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_nor_mol
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_mol_0.8
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+one_loop.sh: line 13: cd: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/6dbk_nor_decouple: No such file or directory
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_nor
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+one_loop.sh: line 13: cd: /nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_by_mol_0.9/: No such file or directory
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_11by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_3by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/3u5l_6by
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/1pf8_nor1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_mol_0.9
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_lamb_0.9
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_nor_mol
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_mol_0.8
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/4gfo_lamb_0.8
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/3lxk
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/3lxl
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/mol_0.9_240514/1pf8_mol_0.9
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/mol_0.9_240514/4gfo_mol_0.9
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/mol_0.9_240514/4mr4
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/mol_0.9_240514/5wal
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/mol_0.9_240514/6dbk
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Charge_bygroup/vertify_test/mol_0.9_240514/6fnx
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/3pjc
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/3zc6
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/3zfp
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/4hvd
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/4hvg
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/4hvh
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/4hvi
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/4i6q
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/4qt1
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/4rio
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/5lwm
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/6aak
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/6db3
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/6gl9
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/6gla
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/6glb
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/6hzv
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/6ny4
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
+/nfs/export3_25T/Bygroup_FEP_data/Packup_to_Bingxing/JAK3_bygroup/1st_batch/7c3n
+will do aly
+/nfs/export3_25T/Bygroup_FEP_data/RBFE_JOBSUB/auto_bygroup_aly
